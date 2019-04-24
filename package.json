@@ -1,0 +1,30 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=development webpack --config webpack.config.js",
+    "test": "npx jest",
+    "test:watch": "npx jest --watch"
+  },
+  "author": "Leandro Simões",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.7.1",
+    "webpack": "^4.30.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "webpack-cli": "^3.3.1",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/plugin-transform-async-to-generator": "^7.3.4",
+    "@babel/plugin-transform-runtime": "^7.3.4"
+  }
+}
