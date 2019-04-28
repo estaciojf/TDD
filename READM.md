@@ -12,5 +12,11 @@ Node e NPM<br>
 2- No diretório local do projeto executar: `npm i`
 
 ### Executar
+
 1- Em ambiente de desenvolvimento executar o comando com watch: `npm run build:watch` <br>
 2- Para executar os testes com watch (recomendado para o TDD): `npm run test:watch`
+
+
+### Relatório de Testes
+1- Executar: `npx jest --coverage`
+2- No navegador abrir o endereço: `COMPLETE_PATH/public/coverage/index.html`
